@@ -1,4 +1,4 @@
-Add Bitcoin payments to your T-shirt store
+Add Bitcoin payments to our demo T-shirt store
 ==
 
 Overview

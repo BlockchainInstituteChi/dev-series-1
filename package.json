@@ -1,7 +1,7 @@
 {
   "name": "institute-btc-payments-demo",
   "version": "1.0.0",
-  "description": "Add BTC payments to your T-shirt store!",
+  "description": "Add BTC payments to our demo T-shirt store.",
   "main": "index.js",
   "scripts": {
     "build": "scripts/build",

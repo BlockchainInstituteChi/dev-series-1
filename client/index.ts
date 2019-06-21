@@ -174,7 +174,7 @@ function render(): VNode {
 // Welcome!
 function welcome(): VNode {
   return h("div.container", [
-    "Welcome to the Bitcoin & Open Blockchain meetup store!"
+    "Welcome to the Blockchain Institute store!"
   ]);
 }
 
@@ -187,7 +187,7 @@ function store(): VNode {
   let cartSize = 0;
   state.cart.forEach(s => (cartSize += s.quantity));
   return h("div.container", [
-    h("div.row", { key: 1 }, [h("h1", ["Bitcoin & Open Blockchain Store"])]),
+    h("div.row", { key: 1 }, [h("h1", ["Blockchain Institute Store"])]),
     h("div.row.nav", { key: 2 }, [
       h("div.col", { key: 1, onclick: gotoPage("cart") }, [
         `View cart (${cartSize})`
