@@ -30,5 +30,5 @@ CREATE TABLE purchases
 -- 
 -- POPULATE catalog
 
-INSERT INTO catalog VALUES ("tee-1", "Classic BOB Logo", 1800);
+INSERT INTO catalog VALUES ("tee-1", "Classic Institute Logo", 1800);
 INSERT INTO catalog VALUES ("tee-2", "Verify Chicago", 1700);

@@ -1,5 +1,5 @@
 {
-  "name": "bob-chicago-dev-01",
+  "name": "blockchain-institute-dev-01",
   "version": "1.0.0",
   "description": "Add BTC payments to your T-shirt store!",
   "main": "index.js",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BOB-Chicago/dev-series.git"
+    "url": "git+https://github.com/BlockchainInstituteChi/dev-series-1.git"
   },
   "keywords": [
-    "BOB",
+    "BlockchainInstituteChi",
     "Chicago",
     "BTC",
     "payments"
@@ -23,9 +23,9 @@
   "author": "Ian Shipman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BOB-Chicago/dev-series/issues"
+    "url": "https://github.com/BlockchainInstituteChi/dev-series-1/issues"
   },
-  "homepage": "https://github.com/BOB-Chicago/dev-series#readme",
+  "homepage": "https://github.com/BlockchainInstituteChi/dev-series-1#readme",
   "dependencies": {
     "bignumber.js": "^6.0.0",
     "bitcoind-rpc": "^0.7.1",

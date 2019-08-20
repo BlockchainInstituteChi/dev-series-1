@@ -232,7 +232,7 @@ function render(): VNode {
 // Welcome!
 function welcome(): VNode {
   return h("div.container", [
-    "Welcome to the Bitcoin & Open Blockchain meetup store!"
+    "Welcome to The Blockchain Institute store!"
   ]);
 }
 
@@ -247,7 +247,7 @@ function store(): VNode {
     let cartSize = 0;
     state.cart.forEach(s => (cartSize += s.quantity));
     return h("div.container", [
-      h("div.row", { key: 1 }, [h("h1", ["Bitcoin & Open Blockchain Store"])]),
+      h("div.row", { key: 1 }, [h("h1", ["The Blockchain Institute Store"])]),
       h("div.row.nav", { key: 2 }, [
         h("div.col", { key: 1, onclick: gotoPage("cart") }, [
           `View cart (${cartSize})`
@@ -402,7 +402,7 @@ function payment(): VNode {
   if (state.__ctor === "BitcoinPayment") {
     const bitcoinURI = `bitcoin:${
       state.bitcoinAddress
-    }?amount=${state.amount.toString()}&message=BOBChicago`;
+    }?amount=${state.amount.toString()}&message=BlockchainInstituteChicago`;
     const qr = qrcode(0, "H");
     qr.addData(bitcoinURI);
     qr.make();
